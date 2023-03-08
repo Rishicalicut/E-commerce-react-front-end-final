@@ -19,7 +19,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
-  background-color: white;
+  background-color: #fcf1ed;
   ${mobile({ width: "75%" })}
 `;
 
@@ -61,7 +61,7 @@ const Login = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>SIGN IN</Title>
+        <Title><strong>SIGN IN</strong></Title>
         <Form>
           <Input placeholder="username" />
           <Input placeholder="password" />
